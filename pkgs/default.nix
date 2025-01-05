@@ -77,6 +77,8 @@
         bls = callPackage2311 ./bls {};
         mcl = callPackage2311 ./mcl {};
       };
+      # FIXME unstable because pyinstaller is not in 24.05
+      stakewise-v3-operator = callPackageUnstable ./stakewise-v3-operator {};
       staking-deposit-cli = callPackage ./staking-deposit-cli {};
       teku = callPackage ./teku {};
       tx-fuzz = callPackage ./tx-fuzz {};
@@ -144,6 +146,7 @@
       snarkjs.bin = "snarkjs";
       ssv-dkg.bin = "ssv-dkg";
       ssvnode.bin = "ssvnode";
+      stakewise-v3-operator.bin = "operator";
       staking-deposit-cli.bin = "deposit";
       teku.bin = "teku";
       tx-fuzz.bin = "tx-fuzz";
