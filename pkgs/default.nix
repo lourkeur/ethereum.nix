@@ -77,6 +77,7 @@
         bls = callPackage2311 ./bls {};
         mcl = callPackage2311 ./mcl {};
       };
+      validator-data-generator = callPackage ./validator-data-generator {};
       staking-deposit-cli = callPackage ./staking-deposit-cli {};
       teku = callPackage ./teku {};
       tx-fuzz = callPackage ./tx-fuzz {};
