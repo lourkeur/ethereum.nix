@@ -10,7 +10,7 @@
     owner = "status-im";
     repo = "nimbus-eth2";
     rev = "v${version}";
-    hash = "sha256-aPyfbQ1983jaWL2XI0yyLHXYegIPT7ugPbFfid5pkfo=";
+    hash = "sha256-INALxgkuZ4kT/DrpzMBqgNeM8Ar78BRccmGWtqoGhB0=";
     fetchSubmodules = true;
   };
 in
